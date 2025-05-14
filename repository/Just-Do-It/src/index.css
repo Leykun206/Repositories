@@ -1,0 +1,30 @@
+/* default style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.comic-relief-regular {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* main containers */
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    font-family: 'Comic Relief', cursive;
+}
